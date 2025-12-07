@@ -215,7 +215,7 @@ const paymentData = {
 // ===============================
 const botonesPago = document.querySelectorAll(".pago-btn");
 const paymentInfoBox = document.getElementById("paymentInfo");
-const tasaCambio = 320; // 1 USD = 320 VES
+const tasaCambio = 360; // 1 USD = 360 VES
 
 botonesPago.forEach(btn => {
     btn.addEventListener("click", () => {
@@ -379,4 +379,5 @@ setInterval(() => {
   currentIndex = (currentIndex + 1) % totalSlides;
   updateCarousel();
 }, 10000); // cada 4 segundos
+
 
